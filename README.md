@@ -1,2 +1,2 @@
 # <big>Docker</big>
-!(media/p1.jpg)
+<img src="media/p1.jpg" height="100" width="170"/>
