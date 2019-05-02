@@ -1,9 +1,9 @@
 **Project: “Cloud Computing in European schools”**  
-<img src="/img/cloud-computing-logoproject.jpg" height="100" width="170">
+<img src="/media/cloud-computing-logoproject.jpg" height="100" width="170">
 
  Number: Project: 2017-1-ES01-KA202-038471
 
-<img src="/img/cofinanciadoEN.png" height="50" width="200"> <img src="/img/logoIES-Modificado.png" height="75" width="200">  
+<img src="/media/cofinanciadoEN.png" height="50" width="200"> <img src="/media/logoIES-Modificado.png" height="75" width="200">  
 
 
 
