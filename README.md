@@ -18,9 +18,9 @@
 
 
 
-#### Author
+#### Autores
 
-&nbsp;&nbsp;&nbsp;  This material has been produced by José Luis Rodríguez Rodríguez under the Creative Commons licence:  <img src="/img/Licencia-Tipo2.png" height="25" width="75">  
+&nbsp;&nbsp;&nbsp;  Este trabajo está realizado por Manuel Santos, José Antonio Busto, José María Parrilla y Víctor López bajo la licencia Creative Commons :  <img src="/img/Licencia-Tipo2.png" height="25" width="75">  
 
 
 
