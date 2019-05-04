@@ -1,34 +1,35 @@
 **Project: “Cloud Computing in European schools”**  
 <img src="/media/cloud-computing-logoproject.jpg" height="100" width="170">
 
- Number: Project: 2017-1-ES01-KA202-038471
+ Number: Project: 2019-4-ES01-KA202-038471
 
 <img src="/media/cofinanciadoEN.png" height="50" width="200"> <img src="/media/logoIES-Modificado.png" height="75" width="200">  
 
 
 
 
-# Introduction to PaaS: develop, deploy, run and manage apps on the Cloud  
+# Introducción a PaaS: desarrollar, implementar, ejecutar y administrar aplicaciones en la nube
+  
 
 
 
 #### Disclaimer
-&nbsp;&nbsp;&nbsp;  *"The European Commission support for the production of this publication does not constitute an endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein."*
+&nbsp;&nbsp;&nbsp;  *"El apoyo de la Comisión Europea para la producción de esta publicación no constituye una aprobación de los contenidos que refleje únicamente las opiniones de los autores, y la Comisión no se hace responsable del uso que pueda hacerse de la información contenida en el mismo."*
 
 
 
 
 #### Autores
 
-&nbsp;&nbsp;&nbsp;  Este trabajo está realizado por Manuel Santos, José Antonio Busto, José María Parrilla y Víctor López bajo la licencia Creative Commons :  <img src="/img/Licencia-Tipo2.png" height="25" width="75"/>  
+&nbsp;&nbsp;&nbsp;  Este trabajo está realizado por Manuel Santos, José Antonio Busto, José María Parrilla y Víctor López bajo la licencia Creative Commons :  <img src="/media/Licencia-Tipo2.png" height="25" width="75">
+  
 
 
 
+### Objetivo
+&nbsp;&nbsp;&nbsp; Plataforma como servicio(PaaS), es un modelo de computación en la nube que permite a los usuarios desarrollar, implementar, ejecutar y administrar aplicaciones sin preocuparse por las capas subyacentes. Las alternativas utilizadas hoy se centran en el uso de contenedores que promueven el enfoque de desarrollo de **aplicaciones basado en microservicios** (frente a **aplicaciones monolíticas**), ya que los diferentes servicios en los que estamos separados de la aplicación pueden ejecutarse fácilmente en diferentes contenedores. Realizaremos un estudio de Docker, Kubernetes y OpenShift para desarrollar, implementar, ejecutar y administrar aplicaciones basadas en microservicios.
 
-### Objective
-&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the **microservices based application** development approach (vs **monolithic applications**), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernetes and OpenShift in order to develop, deploy, run and manage  microservices based applications.
-
-&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
+&nbsp;&nbsp;&nbsp; Esta actividad ha sido desarrollada para desarrollar la competencia profesional incluida en el proyecto Erasmus + "Cloud Computing en escuelas europeas". 
 
 # <big>Docker</big>
 
