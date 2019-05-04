@@ -94,7 +94,7 @@ la carpeta vagrant. Después tenemos que entrar en esta carpeta y dentro crear u
 
 <h2>Ciclo de Vida de la Aplicación</h2><br>
 
-<p>Ya con la máquina arrancada y conectados, lo primero que debemos hacer es crear una aplicación, en este caso vamos a<br> crear una página web llamada ‘index.html’, que va a ser servida por un servidor web, que se ejecutará en un contenedor Docker, para ello crearemos una carpeta ‘public_html’ que contendrá nuestra página web, utilizamos los siguientes comandos:</p><br>
+<p>Ya con la máquina arrancada y conectados, lo primero que debemos hacer es crear una aplicación, en este caso vamos a<br> crear una página web llamada ‘index.html’, que va a ser administrada por un servidor web, que se ejecutará en un contenedor Docker, para ello crearemos una carpeta ‘public_html’ que contendrá nuestra página web, utilizamos los siguientes comandos:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-3.png" height="400" width="550"/><br>
 
 <p>Necesitaremos utilizar un fichero Dockerfile en el que definiremos como vamos a<br> crear nuestra imagen, la crearemos con este comando: <br></p> 
@@ -114,28 +114,28 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 
 <img src="media/3.Ciclo de vida de la aplicacion/3-6.png" height="400" width="550"/><br>
 
-<p>Podemos listar todas las imágenes que tenemos creadas con el comando que se muestra a continuación</p><br>
+<p>Podemos listar todas las imágenes que tenemos creadas con el comando que se muestra a continuación:</p><br>
 
 <img src="media/3.Ciclo de vida de la aplicacion/3-7.png" height="400" width="550"/>
 <br>
-<p>Creamos y ejecutamos un contenedor y lo listamos para ver si realmente si han creado los contenedores</p><br>
+<p>Creamos y ejecutamos un contenedor y lo listamos para ver si realmente si han creado los contenedores:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-8.png" height="400" width="550"/>
 <br>
-<p>Comprobaremos el funcionamiento de nuestra web mediante un navegador Web llamado links por lo que nos lo instalaremos</p><br>
+<p>Comprobaremos el funcionamiento de nuestra web mediante un navegador Web llamado links por lo que nos lo instalaremos:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-9.png"
  height="400" width="550"/>
 <br>
-<p>Abrimos nuestra aplicación links</p><br>
+<p>Abrimos nuestra aplicación links:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-10.png" height="400" width="550"/>
 <br>
-<p>Para que pueda ver todas la utilidades que tiene el programa lins tendremos que presionar la tecla ESC</p><br>
+<p>Para que pueda ver todas la utilidades que tiene el programa links tendremos que presionar la tecla "Esc":</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-11.png" height="400" width="550"/>
 <br>
-<p>Una vez presionada la letra esc , nos vamos a file y a continuación vamos a go to URL</p><br>
+<p>Una vez presionada la letra "Esc" , nos vamos a file y a continuación vamos a go to URL:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-12.png"
  height="400" width="550"/>
 <br>
-<p>Para comprobar el funcionamiento de nuestra web debemos poner la ip de la misma </p><br>
+<p>Para comprobar el funcionamiento de nuestra web debemos poner la ip de la misma: </p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-13.png" height="400" width="550"/>
 <br>
 <p>Para salir del navegador pulsamos la tecla "q":</p><br>
@@ -169,8 +169,8 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-21.png"  height="400" width="550"/>
 <br>
 
-<p>Ahora realizaremos una segunda version de nuestro proyecto, modificando el contenido de la página web que hemos creado anteriormente, y lo actualizaremos en nuestro Dockerhub.<p><br>
- <p>Empezaremos utilizando el siguiente comando:
+<p>Ahora realizaremos una segunda version de nuestro proyecto, modificando el contenido de la página web que hemos creado anteriormente, y lo actualizaremos en nuestro Dockerhub.</p><br>
+ <p>Empezaremos utilizando el siguiente comando:</p>
 
 <img src="media/3.Ciclo de vida de la aplicacion/3-22.png"  height="400" width="550"/>
 <br>
@@ -209,37 +209,37 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-30.png" height="400" width="550"/>
 <br>
 
-<p>También podemos ver desde DockerHub, las dos versiones que hemos<br> subido.</p></br>
+<p>También podemos ver desde DockerHub, las dos versiones que hemos<br> subido:</p></br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-31.png" height="400" width="550"/>
 <br>
 
 
 <h2>Volúmenes Persistentes</h2>
 <br>
-<p>Creamos un contenedor con un servidor MySQL , para que sus datos se almacenen en un contenedor persistente</p><br>
+<p>Creamos un contenedor con un servidor MySQL , para que sus datos se almacenen en un contenedor persistente:</p><br>
 <img src= "media/4.Volumenes persistentes/4-1.png"  height="400" width="550"/>
 <br>
-<p>Para comprobar que hemos guardado correctamente la Base de Datos pondremos el siguiente comando</p><br>
+<p>Para comprobar que hemos guardado correctamente la Base de Datos pondremos el siguiente comando:</p><br>
 <img src= "media/4.Volumenes persistentes/4-3(para comprobar que se ha guardado la base de datos en el host).png"  height="400" width="550"/>
 <br>
 <p> Creamos de nuevo otro contenedor con un servidor MySQL para ello pondremos este comando :  docker run - nombre some-mysql2 -v / opt / mysql: / var / lib / mysql -e MYSQL_ROOT_PASSWORD = asdasd -d mysql </p>
 <br>
-<p>Se comprueba que todavía sigue en pie el contenedor </p><br>
+<p>Se comprueba que todavía sigue en pie el contenedor: </p><br>
 <img src  = "media/4.Volumenes persistentes/4-4.png" height="400" width="550"/>
  <br>
-<p>Cuando presionamos enter en el comando anterior habrá que poner la contraseña que se definió en el MySQL</p><br>
+<p>Cuando presionamos enter en el comando anterior habrá que poner la contraseña que se definió en el MySQL:</p><br>
 <img src="media/4.Volumenes persistentes/4-5(en enter password hay que poner la contraseña que pusimos anteriormente en la primera captura).png"  height="400" width="550"/><br>
-<p>Para crear un Base de Datos dentro del servidor de MySQL</p>
+<p>Para crear un Base de Datos dentro del servidor de MySQL:</p>
 <img src = "media/4.Volumenes persistentes/4-6(para crear base de datos).png" height="400" width="550"/>
 <br>
-<p>Comprobamos si realmente ha sido creada la base de datos</p><br>
+<p>Comprobamos si realmente ha sido creada la base de datos:</p><br>
 <img src = "media/4.Volumenes persistentes/4-7(comprobamos que ahí están creados los 2).png" height="400" width="550"/>
 <br>
-<p>Salimos de la Base de datos creada </p><br>
+<p>Salimos de la Base de datos creada: </p><br>
 <img src="media/4.Volumenes persistentes/4-8(exit para salir de los 2).png" height="400" width="550"/>
 <br>
 <p>Ahora, veremos como creando un contenedor nuevo, seguirá estando las base de datos creadas en el antiguo contenedor, viendo que en los contenedores no se almacena la información.</p><br>
-<p>Eliminamos el contenedor anterior y creamos otro llamado mysql2</p><br>
+<p>Eliminamos el contenedor anterior y creamos otro llamado mysql2:</p><br>
 <img src="media/4.Volumenes persistentes/4-9(eliminamos el contenedor anterior mysql y creamos otro).png" height="400" width="550"/>
 <br>
 <p>Entraremos dentro de ese nuevo contenedor y comprobaremos que las bases de datos creadas en el anterior contenedor siguen estando en el nuevo contenedor:</p>
@@ -272,6 +272,6 @@ que hemos obtenido con el comando anterior: </p><br>
 
 <img src="media/5.Wordpress/5-6(y comprobamos que funciona el wordpress).png" height="400" width="550"/><br>
 
-<p>Por último nos aparece esta página con Wordpress y así vemos que funciona.</p><br>
+<p>Finalmente, nos aparece esta página con Wordpress y así vemos que funciona:</p><br>
 
 <img src="media/5.Wordpress/5-7(funciona!).png" height="400" width="550"/><br>
