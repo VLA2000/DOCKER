@@ -29,7 +29,14 @@
 ### Objetivo
 &nbsp;&nbsp;&nbsp; Plataforma como servicio(PaaS), es un modelo de computación en la nube que permite a los usuarios desarrollar, implementar, ejecutar y administrar aplicaciones sin preocuparse por las capas subyacentes. Las alternativas utilizadas hoy se centran en el uso de contenedores que promueven el enfoque de desarrollo de **aplicaciones basado en microservicios** (frente a **aplicaciones monolíticas**), ya que los diferentes servicios en los que estamos separados de la aplicación pueden ejecutarse fácilmente en diferentes contenedores. Realizaremos un estudio de Docker, Kubernetes y OpenShift para desarrollar, implementar, ejecutar y administrar aplicaciones basadas en microservicios.
 
-&nbsp;&nbsp;&nbsp; Esta actividad ha sido desarrollada para desarrollar la competencia profesional incluida en el proyecto Erasmus + "Cloud Computing en escuelas europeas". 
+&nbsp;&nbsp;&nbsp; Esta actividad ha sido desarrollada para desarrollar la competencia profesional incluida en el proyecto Erasmus + "Cloud Computing en escuelas europeas".
+<br>
+##Indice
+- Instalación de vagrant y virtualbox
+- Instalación de docker
+- Ciclo de vida de la apliación
+- Volúmenes persistentes
+- Wordpress
 
 # <big>Docker</big>
 
