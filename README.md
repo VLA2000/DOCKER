@@ -32,9 +32,9 @@
 &nbsp;&nbsp;&nbsp; Esta actividad ha sido desarrollada para desarrollar la competencia profesional incluida en el proyecto Erasmus + "Cloud Computing en escuelas europeas".
 <br>
 ## Indice
-- Instalación de vagrant y virtualbox
-- Instalación de docker
-- Ciclo de vida de la apliación
+- Instalación de Vagrant y Virtualbox
+- Instalación de Docker
+- Ciclo de vida de la aplicación
 - Volúmenes persistentes
 - Wordpress
 
