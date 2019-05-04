@@ -121,7 +121,7 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-10.png" height="400" width="550"/>
 <br>
 <p>Para que pueda ver todas la utilidades que tiene el programa lins tendremos que presionar la tecla ESC</p><br>
-<img src="media/3.Ciclo de vida de la aplicacion/3-11(para que salga la barra superior donde están las opciones file, view etc, hay que darle a _esc_ en el teclado).png" height="400" width="550"/>
+<img src="media/3.Ciclo de vida de la aplicacion/3-11.png" height="400" width="550"/>
 <br>
 <p>Una vez presionada la letra esc , nos vamos a file y a continuación vamos a go to URL</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-12.png"
@@ -190,30 +190,19 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-27.png"  height="400" width="550"/>
 <br>
 
-<p>Borramos el contenedor </p><br>
+<p>Borramos el contenedor actual con el siguiente comando:</p><br>
+<img src="media/3.Ciclo de vida de la aplicacion/3-28.png"  height="400" width="550"/>
+<br>
+<p>Nos tendrá que aparecer algo similar a esta imagen:<p></br>
+<img src="media/3.Ciclo de vida de la aplicacion/3-29.png"  height="400" width="550"/>
+<br>
+<p>Y así comprobamos que nos sale prueba2</p><br>
+<img src="media/3.Ciclo de vida de la aplicacion/3-30.png"  height="400" width="550"/>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>También podemos ver desde DockerHub, las dos versiones que hemos<br> subido.</p></br>
+<img src="media/3.Ciclo de vida de la aplicacion/3-31.png"  height="400" width="550"/>
+<br>
 
 
 <h2>Volúmenes Persistentes</h2>
@@ -244,7 +233,7 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/4.Volumenes persistentes/4-9(eliminamos el contenedor anterior mysql y creamos otro).png" height="400" width="550"/>
 <br>
 <p>Creamos una nueva base de datos llamada dbTest y la visualizamos con el comando propio de MySQL show databases;</p>
-<img src="media/media/4.Volumenes persistentes/4-10(comprobamos que sigue estando las bases de datos creadas anteriormente).png"  height="400" width="550"/>
+<img src="media/media/4.Volumenes persistentes/4-10(comprobamos que sigue estando las bases de datos creadas anteriormente).png" height="400" width="550"/>
 <br>
 <h2>Wordpress</h2>
 <br> 
@@ -262,11 +251,11 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 
 <p>Cuando ejecutemos el comando nos debe aparecer algo parecido a la siguiente<br> imagen:</p><br>
 
-<img src="media/5.Wordpress/5-4.png" height="400" width="550"/><br>
+<img src="media/5.Wordpress/5-4.png" height="400" width="550"/> <br>
 
 <p>Podemos conectarnos a la URL desde la máquina virtual con docker, para ello<br>  necesitamos la ip del servidor, que la obtendremos mediante el siguiente comando:</p><br>
 
-<img src="media/5.Wordpress/5-5(comprobamos que ip tiene asignada con el comando<br> que aparece en la imagen).png" height="400" width="550"/><br>
+<img src="media/5.Wordpress/5-5(comprobamos que ip tiene asignada con el comando que aparece en la imagen).png" height="400" width="550"/><br>
 
 <p>Utilizaremos la herramienta links, que hemos instalado anteriormente, en la esquina<br> superior izquierda nos aparece una opción ‘Go to URL’, ahora introduciremos la ip<br>
 que hemos obtenido con el comando anterior: </p><br>
@@ -276,10 +265,3 @@ que hemos obtenido con el comando anterior: </p><br>
 <p>Por último nos aparece esta página con Wordpress y así vemos que funciona.</p><br>
 
 <img src="media/5.Wordpress/5-7(funciona!).png" height="400" width="550"/><br>
-
-
-
-
-
-
-
