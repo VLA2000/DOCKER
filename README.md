@@ -166,7 +166,7 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-22.png"  height="400" width="550"/>
 <br>
 
-<p>Y cambiaremos el contenido por ‘<h1>Prueba2</h1>’, como se muestra en la siguiente imagen:</p><br>
+<p>Y cambiaremos el contenido por ‘Prueba2’, como se muestra en la siguiente imagen:</p><br>
 
 <img src="media/3.Ciclo de vida de la aplicacion/3-23.png" height="400" width="550"/>
 <br>
@@ -191,17 +191,17 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <br>
 
 <p>Borramos el contenedor actual con el siguiente comando:</p><br>
-<img src="media/3.Ciclo de vida de la aplicacion/3-28.png"  height="400" width="550"/>
+<img src="media/3.Ciclo de vida de la aplicacion/3-28(para eliminar el contenedor).png" height="400" width="550"/>
 <br>
 <p>Nos tendrá que aparecer algo similar a esta imagen:<p></br>
-<img src="media/3.Ciclo de vida de la aplicacion/3-29.png"  height="400" width="550"/>
+<img src="media/3.Ciclo de vida de la aplicacion/3-29.png" height="400" width="550"/>
 <br>
 <p>Y así comprobamos que nos sale prueba2</p><br>
-<img src="media/3.Ciclo de vida de la aplicacion/3-30.png"  height="400" width="550"/>
+<img src="media/3.Ciclo de vida de la aplicacion/3-30.png" height="400" width="550"/>
 <br>
 
 <p>También podemos ver desde DockerHub, las dos versiones que hemos<br> subido.</p></br>
-<img src="media/3.Ciclo de vida de la aplicacion/3-31.png"  height="400" width="550"/>
+<img src="media/3.Ciclo de vida de la aplicacion/3-31.png" height="400" width="550"/>
 <br>
 
 
@@ -233,7 +233,7 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/4.Volumenes persistentes/4-9(eliminamos el contenedor anterior mysql y creamos otro).png" height="400" width="550"/>
 <br>
 <p>Creamos una nueva base de datos llamada dbTest y la visualizamos con el comando propio de MySQL show databases;</p>
-<img src="media/media/4.Volumenes persistentes/4-10(comprobamos que sigue estando las bases de datos creadas anteriormente).png" height="400" width="550"/>
+<img src="/media/4.Volumenes persistentes/4-10(comprobamos que sigue estando las bases de datos creadas anteriormente).png"  height="400" width="550"/>
 <br>
 <h2>Wordpress</h2>
 <br> 
