@@ -69,7 +69,7 @@ la carpeta vagrant. Después tenemos que entrar en esta carpeta y dentro crear u
 <br>
 <img src="media/2.Instalacion de docker/2-3.png" height="400" width="550"/>
 <br>
-<p>Dentro del archivo Vagrantfile ponemos la siguiente información:</p>
+<p>Dentro del archivo Vagrantfile pondremos la siguiente información dada <a href="https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/Vagrantfile">aquí</a>:</p>
 <br>
 <img src="media/2.Instalacion de docker/2-4.png" height="400" width="550"/>
 <br>
@@ -94,7 +94,7 @@ la carpeta vagrant. Después tenemos que entrar en esta carpeta y dentro crear u
 
 <h2>Ciclo de Vida de la Aplicación</h2><br>
 
-<p>Lo primero que debemos hacer es crear una aplicación, en este caso vamos a <br> crear una página web llamada ‘index.html’, que va a ser servida por un servidor web,<br> que se ejecutará en un contenedor Docker, para ello crearemos una carpeta <br> ‘public_html’ que contendrá nuestra página web, utilizamos los siguientes <br> comandos:</p><br>
+<p>Ya con la máquina arrancada y conectados, lo primero que debemos hacer es crear una aplicación, en este caso vamos a<br> crear una página web llamada ‘index.html’, que va a ser servida por un servidor web, que se ejecutará en un contenedor Docker, para ello crearemos una carpeta ‘public_html’ que contendrá nuestra página web, utilizamos los siguientes comandos:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-3.png" height="400" width="550"/><br>
 
 <p>Necesitaremos utilizar un fichero Dockerfile en el que definiremos como vamos a<br> crear nuestra imagen, la crearemos con este comando: <br></p> 
@@ -138,27 +138,27 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <p>Para comprobar el funcionamiento de nuestra web debemos poner la ip de la misma </p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-13.png" height="400" width="550"/>
 <br>
-<p>Para salir del navegador pulsamos la tecla q</p><br>
+<p>Para salir del navegador pulsamos la tecla "q":</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-14(para salir del navegador links, darle a _q_ en el teclado).png" height="400" width="550"/>
 <br>
-<p>A continuación nos tendremos que registrar en DockerHub para poder entrar desde la consola con el siguiente comando <p><br>
+<p>A continuación, previamente registrados en Dockerhub, tendremos que iniciar sesión con el siguiente comando para poder seguir trabajando:<p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-15(crearse cuenta en dockerhub para iniciar sesion)).png" height="400" width="550"/>
 <br>
-<p>Pondremos nuestro usuario y contraseña para poder acceder a DockerHub</p><b>
+<p>Pondremos nuestro usuario y contraseña para poder acceder a DockerHub:</p><b>
 <img src="media/3.Ciclo de vida de la aplicacion/3-16.png"
  height="400" width="550"/>
 <br>
-<p>Subimos la imagen con el nombre de v1</p><br>
+<p>Subimos la imagen como primera version de nuestro proyecto:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-17.png"
  height="400" width="550"/>
 <br>
-<p>Tendrá que aparecer una imagen similar a esta si se ha subido la imagen correctamente a DockerHub <p><br>
+<p>Tendrá que aparecer una imagen similar a esta si se ha subido la imagen correctamente a DockerHub: <p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-18.png" height="400" width="550"/>
 <br>
-<p>Comprobamos desde nuestro navegador que se ha subido correctamente al repositorio adecuado<p><br>
+<p>Comprobamos desde nuestro navegador que se ha subido correctamente al repositorio adecuado:<p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-19.png"  height="400" width="550"/>
 <br>
-<p>Nos bajamos la imagen que nos habíamos creado y subido anteriormente<p><br>
+<p>Para descargarnos un proyecto de una cuenta de Dockerhub tenemos que utilizar el siguiente comando:<p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-20.png" height="400" width="550"/>
 <br>
 
@@ -169,7 +169,8 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-21.png"  height="400" width="550"/>
 <br>
 
-<p>Ahora modificaremos el contenido de la página web que hemos creado anteriormente con los siguientes comandos:<p><br>
+<p>Ahora realizaremos una segunda version de nuestro proyecto, modificando el contenido de la página web que hemos creado anteriormente, y lo actualizaremos en nuestro Dockerhub.<p><br>
+ <p>Empezaremos utilizando el siguiente comando:
 
 <img src="media/3.Ciclo de vida de la aplicacion/3-22.png"  height="400" width="550"/>
 <br>
@@ -198,13 +199,13 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-27.png"  height="400" width="550"/>
 <br>
 
-<p>Borramos el contenedor actual con el siguiente comando:</p><br>
+<p>Borramos el contenedor que anteriormente creamos de la primera version con el siguiente comando:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-28(para eliminar el contenedor).png" height="400" width="550"/>
 <br>
-<p>Nos tendrá que aparecer algo similar a esta imagen:<p></br>
+<p>Y seguidamente, crearemos el contenedor "pruebadocker2" de la segunda version:<p></br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-29.png" height="400" width="550"/>
 <br>
-<p>Y así comprobamos que nos sale prueba2</p><br>
+<p>Y comprobaremos que nos sale prueba2 en links:</p><br>
 <img src="media/3.Ciclo de vida de la aplicacion/3-30.png" height="400" width="550"/>
 <br>
 
@@ -234,13 +235,14 @@ Editaremos el Dockerfile tal y como se muestra en la siguiente imagen:</p><br>
 <p>Comprobamos si realmente ha sido creada la base de datos</p><br>
 <img src = "media/4.Volumenes persistentes/4-7(comprobamos que ahí están creados los 2).png" height="400" width="550"/>
 <br>
-<p>Salimos de las dos Base de datos creadas </p><br>
+<p>Salimos de la Base de datos creada </p><br>
 <img src="media/4.Volumenes persistentes/4-8(exit para salir de los 2).png" height="400" width="550"/>
 <br>
-<p>Eliminamos el contenedor anterior y creamos otro</p><br>
+<p>Ahora, veremos como creando un contenedor nuevo, seguirá estando las base de datos creadas en el antiguo contenedor, viendo que en los contenedores no se almacena la información.</p><br>
+<p>Eliminamos el contenedor anterior y creamos otro llamado mysql2</p><br>
 <img src="media/4.Volumenes persistentes/4-9(eliminamos el contenedor anterior mysql y creamos otro).png" height="400" width="550"/>
 <br>
-<p>Creamos una nueva base de datos llamada dbTest y la visualizamos con el comando propio de MySQL show databases;</p>
+<p>Entraremos dentro de ese nuevo contenedor y comprobaremos que las bases de datos creadas en el anterior contenedor siguen estando en el nuevo contenedor:</p>
 <img src="/media/4.Volumenes persistentes/4-10(comprobamos que sigue estando las bases de datos creadas anteriormente).png"  height="400" width="550"/>
 <br>
 <h2>Wordpress</h2>
